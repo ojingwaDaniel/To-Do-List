@@ -1,4 +1,4 @@
-@extends("layouts.app");
+@extends("layouts.app")
 @section("header")
   <h1>{{ $task->title}}</h1>
 @endsection
