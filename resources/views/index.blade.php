@@ -33,7 +33,7 @@
  @endforelse
 
  @if ($tasks->count())
-   <p class="mt-4">{{$tasks->links()}}</p>
+   <p class="mt-4">{{$tasks->links("vendor.pagination.tailwind")}}</p>
  @endif
 @endsection
 
